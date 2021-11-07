@@ -8,6 +8,7 @@ import Register from './src/screens/register';
 import Home from './src/screens/home';
 import Checkin from './src/screens/checkin';
 import Splash from './src/screens/splash';
+import Setup from './src/screens/setup';
 
 
 
@@ -19,6 +20,11 @@ function MyStack() {
       <Stack.Screen 
         name="Splash" 
         component={Splash} 
+        options={{ headerShown: false}} 
+      />
+      <Stack.Screen 
+        name="Setup" 
+        component={Setup} 
         options={{ headerShown: false}} 
       />
         <Stack.Screen 

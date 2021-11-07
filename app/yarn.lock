@@ -1032,7 +1032,7 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@callstack/react-theme-provider@^3.0.7":
+"@callstack/react-theme-provider@^3.0.5", "@callstack/react-theme-provider@^3.0.7":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@callstack/react-theme-provider/-/react-theme-provider-3.0.7.tgz#b7ce1a53d63ad5e83574b831ae0af6b7c6cc40e7"
   integrity sha512-Ab6rbD2w4u9W3yf7LQQ8evx9m8fZNsoWxt+MFm3AyZnyKQNCJf4K7ip9tHHZgSs+HTdoj38lEqPehvFOVQKvAg==
@@ -1054,6 +1054,16 @@
   integrity sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==
   dependencies:
     "@types/hammerjs" "^2.0.36"
+
+"@expo-google-fonts/inter@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.2.0.tgz#2934c1e510d58b652e3a5150ca7f76f55b89e84a"
+  integrity sha512-gIjkti/NxHABPc4xB/AlgSpbLJod/8Iill7DfW+rh2CHv3jjz7I7SLQY8u/3NoF8zZk0GNU8gTZkVwGQibuWcQ==
+
+"@expo-google-fonts/poppins@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/poppins/-/poppins-0.2.0.tgz#f6df892909142740b53d3227cb5eb24990ece151"
+  integrity sha512-NIwmzadXGHmS7F7nznfpObVAAi4PdSvueLKnPN3ERG0yMYrC8svEP2IY25H4xLoIGBazgkN192ZkStM3PMYajA==
 
 "@expo/config-plugins@3.1.0":
   version "3.1.0"
@@ -1834,7 +1844,7 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-module-resolver@^4.1.0:
+babel-plugin-module-resolver@^4.0.0, babel-plugin-module-resolver@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-4.1.0.tgz#22a4f32f7441727ec1fbf4967b863e1e3e9f33e2"
   integrity sha512-MlX10UDheRr3lb3P0WcaIdtCSRlxdQsB1sBqL7W0raF070bGl1HQQq5K3T2vf2XAYie+ww+5AKC/WrkjRO2knA==
@@ -5234,6 +5244,15 @@ react-native-gifted-chat@^0.16.3:
     react-native-parsed-text "0.0.22"
     react-native-typing-animation "^0.1.7"
     uuid "3.4.0"
+
+react-native-ios-kit@^0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/react-native-ios-kit/-/react-native-ios-kit-0.0.22.tgz#302ce2948c4b76cce11289ac67e83cfd2f6636a4"
+  integrity sha512-roc5KTzRyWk2xnBo5Wl0W5IOk2+pvdQZsn0i0YuPT59/f/vuTtUFGZRrPBbK3QpG/3Nyipy2NO1qQBH8clVrfQ==
+  dependencies:
+    "@callstack/react-theme-provider" "^3.0.5"
+    babel-plugin-module-resolver "^4.0.0"
+    color "^3.1.2"
 
 react-native-iphone-x-helper@^1.2.1, react-native-iphone-x-helper@^1.3.1:
   version "1.3.1"
