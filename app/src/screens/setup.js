@@ -27,8 +27,8 @@ export default function Setup() {
     {'img':require('../assets/headache.png'),'name':'Migraine','key':3},
     ]
 
-    const [d, setD] = useState([false,false,false])
-    const [m, setM] = useState([false,false,false,false])
+    const [d, setD] = useState([false,false,false,false])
+    const [m, setM] = useState([false,false,false])
     const [a, setA] = useState([false,false])
 
 
@@ -94,6 +94,10 @@ export default function Setup() {
 
 
         }
+
+        const _completeSetup = () => {
+            
+        }
   
     
    
@@ -127,9 +131,11 @@ export default function Setup() {
                 
             </View>
             <View style={{marginTop:'15%'}}></View>
-                <TouchableOpacity onPress={navigation.navigate('Home')}><View style={{width:'70%', backgroundColor:theme.black, borderRadius:30, padding:10, alignSelf:'center'}}>
+            <View>
+                <TouchableOpacity onPress={()=>navigation.navigate('Home')}><View style={{width:'70%', backgroundColor:theme.black, borderRadius:30, padding:10, alignSelf:'center'}}>
                     <Text style={{fontFamily:'Poppins_600SemiBold', color:theme.white, textAlign:'center'}}>Complete Setup</Text>
                 </View></TouchableOpacity>
+            </View>
           
         </View>
         </SafeAreaView>

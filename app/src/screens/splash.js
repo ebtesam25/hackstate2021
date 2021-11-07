@@ -5,6 +5,7 @@ import {
     Poppins_400Regular,
     Poppins_500Medium,
     Poppins_600SemiBold,
+    Poppins_100Thin,
   } from '@expo-google-fonts/poppins';
 import AppLoading from 'expo-app-loading';
 import {theme} from '../theme';
@@ -43,7 +44,8 @@ export default function Splash () {
     let [fontsLoaded] = useFonts({
         Poppins_400Regular,  
         Poppins_500Medium,
-        Poppins_600SemiBold
+        Poppins_600SemiBold,
+        Poppins_100Thin
       });
     
       if (!fontsLoaded) {
